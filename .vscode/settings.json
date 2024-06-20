@@ -7,13 +7,13 @@
   "editor.insertSpaces": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "never",
-    "source.fixAll": "explicit"
+    "source.fixAll": "explicit",
+    "source.fixAll.stylelint": "explicit"
   },
-  "stylelint.validate": ["typescriptreact"],
+  "stylelint.validate": ["typescriptreact", "typescript"],
   "stylelint.configFile": ".stylelintrc.cjs",
   "stylelint.packageManager": "yarn",
   "cSpell.words": [
-    "antd",
     "datepicker",
     "Fabcmpny",
     "kakao"

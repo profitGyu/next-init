@@ -1,1 +1,0 @@
-export { default as suitFont } from './suit';

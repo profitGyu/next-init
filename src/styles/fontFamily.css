@@ -1,68 +1,77 @@
 @font-face {
-  font-family: suit;  
+  font-family: suit;
   font-weight: 1 1000;
   src: url('/fonts/suit/default.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: suit;  
+  font-family: suit;
   font-weight: 100;
-  src: url('/fonts/suit/default.woff2') format('woff2'),
-  url('/fonts/suit/thin.ttf') format('truetype');
+  src:
+    url('/fonts/suit/default.woff2') format('woff2'),
+    url('/fonts/suit/thin.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: suit;  
+  font-family: suit;
   font-weight: 200;
-  src: url('/fonts/suit/default.woff2') format('woff2'),
-  url('/fonts/suit/extraLight.ttf') format('truetype');
+  src:
+    url('/fonts/suit/default.woff2') format('woff2'),
+    url('/fonts/suit/extraLight.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: suit;  
+  font-family: suit;
   font-weight: 300;
-  src: url('/fonts/suit/default.woff2') format('woff2'),
-  url('/fonts/suit/light.ttf') format('truetype');
+  src:
+    url('/fonts/suit/default.woff2') format('woff2'),
+    url('/fonts/suit/light.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: suit;  
+  font-family: suit;
   font-weight: 400;
-  src: url('/fonts/suit/default.woff2') format('woff2'),
-  url('/fonts/suit/regular.ttf') format('truetype');
+  src:
+    url('/fonts/suit/default.woff2') format('woff2'),
+    url('/fonts/suit/regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: suit;  
+  font-family: suit;
   font-weight: 500;
-  src: url('/fonts/suit/default.woff2') format('woff2'),
-  url('/fonts/suit/medium.ttf') format('truetype');
+  src:
+    url('/fonts/suit/default.woff2') format('woff2'),
+    url('/fonts/suit/medium.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: suit;  
+  font-family: suit;
   font-weight: 600;
-  src: url('/fonts/suit/default.woff2') format('woff2'),
-  url('/fonts/suit/semiBold.ttf') format('truetype');
+  src:
+    url('/fonts/suit/default.woff2') format('woff2'),
+    url('/fonts/suit/semiBold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: suit;  
+  font-family: suit;
   font-weight: 700;
-  src: url('/fonts/suit/default.woff2') format('woff2'),
-  url('/fonts/suit/bold.ttf') format('truetype');
+  src:
+    url('/fonts/suit/default.woff2') format('woff2'),
+    url('/fonts/suit/bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: suit;  
+  font-family: suit;
   font-weight: 800;
-  src: url('/fonts/suit/default.woff2') format('woff2'),
-  url('/fonts/suit/extraBold.ttf') format('truetype');
+  src:
+    url('/fonts/suit/default.woff2') format('woff2'),
+    url('/fonts/suit/extraBold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: suit;  
+  font-family: suit;
   font-weight: 900;
-  src: url('/fonts/suit/default.woff2') format('woff2'),
-  url('/fonts/suit/heavy.ttf') format('truetype');
+  src:
+    url('/fonts/suit/default.woff2') format('woff2'),
+    url('/fonts/suit/heavy.ttf') format('truetype');
 }

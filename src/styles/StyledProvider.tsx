@@ -9,8 +9,8 @@ import StyledComponentsRegistry from './StyledRegistry';
 const StylesProvider = ({ children }: { children: ReactNode }) => (
   <StyledComponentsRegistry>
     <GlobalStyle />
+    {children}
   </StyledComponentsRegistry>
-
 );
 
 export default StylesProvider;

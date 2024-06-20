@@ -19,4 +19,4 @@ const config = {
   },
 };
 
-module.exports = config;s
+module.exports = config;
