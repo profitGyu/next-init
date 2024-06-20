@@ -1,0 +1,24 @@
+{
+  "files.eol": "\n",
+  "files.autoSave": "onFocusChange",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never",
+    "source.fixAll": "explicit"
+  },
+  "stylelint.validate": ["typescriptreact"],
+  "stylelint.configFile": ".stylelintrc.cjs",
+  "stylelint.packageManager": "yarn",
+  "cSpell.words": [
+    "antd",
+    "datepicker",
+    "Fabcmpny",
+    "kakao"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
