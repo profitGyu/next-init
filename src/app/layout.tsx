@@ -13,17 +13,14 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <>
-      <StyledProvider>
-        <html lang={'ko'}>
-          <body >
-            <header>#</header>
-            <main>{children}</main>s
-            <footer>#</footer>
-          </body>
-        </html>
-      </StyledProvider>
-    </>
+    <StyledProvider>
+      <html lang={'ko'}>
+        <body>
+          {children}
+          <div id={'portal'} />
+        </body>
+      </html>
+    </StyledProvider>
   );
 };
 
