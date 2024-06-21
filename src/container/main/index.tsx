@@ -1,9 +1,33 @@
 'use client';
 
-import { MainContainer } from './index.styled';
+import { RightAside } from 'components/Aside';
+import { Footer } from 'components/Footer';
+import { Header } from 'components/Header';
+import Portal from 'components/Portal';
+import { AsideStore } from 'store/aside';
 
-interface IProps { };
+import { BodySection, MainContainer } from './index.styled';
+
+interface IMainProps { };
+
 const Main = () => {
-  return (<MainContainer>메인 페이지</MainContainer>)
+
+  const { isOpen } = AsideStore()
+
+  return (
+    <>
+      <MainContainer>
+        <Header />
+        <BodySection>
+          바디 영역 입니다.
+        </BodySection>
+        <Footer />
+      </MainContainer>
+      <Portal>
+        <RightAside isOpen={isOpen} />
+      </Portal>
+    </>
+
+  )
 };
 export default Main;

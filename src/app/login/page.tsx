@@ -1,10 +1,8 @@
 'use client';
 
-import { Test } from "components/pages/LoginPage.styled";
-
 const loginPage = () => {
   return (<div>
-    <Test>sdsds</Test>
+    로그인 페이지
   </div>)
 };
 export default loginPage

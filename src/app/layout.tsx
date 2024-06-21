@@ -1,4 +1,3 @@
-
 import type { ReactNode } from 'react';
 
 import StyledProvider from 'styles/StyledProvider';
